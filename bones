@@ -15,5 +15,5 @@ if [ -f "${closet_door}/${skeleton}" ]; then
   make_skeleton
   echo "Skeleton found"
 else
-  echo "No skeleton found for the file extension (.${extension})"
+  echo "No skeleton found with a '.${extension}' file extension"
 fi
