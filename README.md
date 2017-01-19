@@ -9,6 +9,13 @@ After you've installed bones, you simply just navigate to a directory and execut
 
 ```bones hello_world.sh```
 
+Once that has executed, perform a directory listing and you should see your new file. Open it up in your most favorite text editor and you should see the following.
+
+```
+#!/usr/bin/env bash
+
+echo "Hello World!"
+```
 
 ## How does it work?
 
