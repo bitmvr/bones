@@ -1,6 +1,6 @@
 # Bones
 
-Bones is a lightweight CLI utility that helps you get up and running quickly by providing default files based on some of the most popular scripting and programming languages. Bones was created to remove the annoyance of creating a script, provide a shebang, header of top comment.
+Bones is a lightweight CLI utility that helps you get up and running quickly by providing default files based on some of the most popular scripting and programming languages. Bones was created to remove the annoyance of creating a file, providing a shebang, header or top comment as well as making the script executable.
 
 
 ## Give it a try
