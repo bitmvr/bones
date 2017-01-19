@@ -2,7 +2,8 @@
 
 file="${1}"
 extension="${file##*.}"
-closet_door="closet"
+script_path="$(readlink "$(which bones)")"
+closet_door="${script_path%/bones}/closet"
 skeleton="skeleton.${extension}"
 
 function make_skeleton() {
