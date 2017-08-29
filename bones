@@ -6,6 +6,10 @@ script_path="$(readlink "$(which bones)")"
 closet_door="${script_path%/bones}/closet"
 skeleton="skeleton.${extension}"
 
+function init() {
+  mkdir /usr/local/etc/bones/closet
+}
+
 function make_skeleton() {
   cp "${closet_door}/${skeleton}" "${file}"
   chmod +x "${file}"
